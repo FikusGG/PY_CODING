@@ -1,0 +1,7 @@
+a,b,znak=int(input()),int(input()),input()
+if znak=="/" and b==0:print("На ноль делить нельзя!")
+elif znak=="/" and b!=0:print(a/b)
+elif znak=="*":print(a*b)
+elif znak=="+":print(a+b)
+elif znak=="-":print(a-b)
+else:print("Неверная операция")

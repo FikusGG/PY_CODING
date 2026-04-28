@@ -1,0 +1,6 @@
+a,b,c=int(input()),int(input()),int(input())
+max=max(a,b,c)
+min=min(a,b,c)
+if a!=min and a!=max:print(a)
+elif b!=min and b!=max:print(b)
+else:print(c)

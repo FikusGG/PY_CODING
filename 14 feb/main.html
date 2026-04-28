@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Валентинка</title> 
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+        } 
+        .gif { 
+            width: 200px; 
+            height: 200px; 
+        } 
+        #message { 
+            font-size: 20px; 
+            margin-top: 20px; 
+        } 
+        #buttons { 
+            margin-top: 20px; 
+            color: #993939;
+        } 
+    </style> 
+</head> 
+<body> 
+    <img class="gif" src="your-cute-gif-url-here.gif" alt="Милая гифка"> 
+    <p id="message">Ты станешь моей на это 14 февраля???</p> 
+    <div id="buttons" > 
+        <button onclick="sayYes()">Да</button> 
+        <button onclick="sayNo()">Нет</button> 
+    </div> 
+
+    <script> 
+        function sayYes() { 
+            alert("УРААААААА!"); 
+        } 
+
+        function sayNo() { 
+            // Действие, которое происходит при нажатии "Нет" 
+            // Например, можно скрыть гифку или что-то еще 
+        } 
+    </script> 
+</body> 
+</html> 

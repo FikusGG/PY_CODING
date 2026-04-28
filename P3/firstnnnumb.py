@@ -1,0 +1,5 @@
+# a=float(input())
+# print(int(((a%1)*10)//1))
+# print((float(input())%1))
+num = max(1, 3, -5, 7) + min(-3, 6, -8, -1) + abs(-17)
+print(num)
